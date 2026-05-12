@@ -21,8 +21,13 @@ MONGO_PASS=
 ```
 npm install
 ```
+### 3. Execute docker container
+Execute the next command on the terminal to get the necessary images and start running it.
+```
+docker compose up -d
+```
 
-### 3. Execute the dev command if still in develop
+### 4. Execute the dev command if still in develop
 ```
 npm run dev
 ```
